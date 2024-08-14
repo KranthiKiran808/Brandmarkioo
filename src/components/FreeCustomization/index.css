@@ -1,0 +1,103 @@
+.free-customization{
+padding:100px 10px;
+}
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    overflow: auto;
+    align-items:flex-start;
+  }
+  
+  .msg-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 36px;
+  }
+  
+ 
+  .from-msg-profile-pic {
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .to-msg-profile-pic{
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .msg-text-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    max-width: 355px;
+    min-width: 80px;
+    justify-content: space-between;
+  }
+  
+  .from-msg-text-container {
+    color: white !important;
+    background: #0967d2;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  
+  .to-msg-text-container {
+
+    color: black;
+    background: #dce6f4;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  @media (min-width:550px){
+    .free-customization{
+        padding:100px 5%;
+        }
+    .free-customization-container{
+        display: block;
+        width:100%;
+    text-align: center;
+    }
+    .chat-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+  }
+  @media (min-width:990px){
+    .free-customization{
+        padding:100px 17%;
+        }
+    .free-customization-container{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap:50px;
+        text-align: left;
+    
+    }
+
+  }

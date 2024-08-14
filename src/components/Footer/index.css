@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family:'Montserrat';
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+    color:black;
+    /* border:1px solid red; */
+    text-decoration: none;
+
+}
+.box-container{
+    padding-top: 100px;
+}
+
+.footer-container{
+    background-color: rgb(61, 59, 59);
+    padding:16px 5px 16px 5px;
+}
+
+.col{
+    margin-bottom:45px;
+    width:350px;
+}
+.anch-box{
+    width:350px;
+}
+.col1{
+    margin-top:35px;
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    flex-wrap: wrap;
+}
+.col2{
+    display: flex;
+    gap:50px;
+}
+.boxes1{
+    padding-left: 5px;
+}
+.boxes2{
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.box{
+    width:30px;
+    height:30px;
+}
+.box1{
+    background-color: rgb(235, 235, 49);
+    margin-left: 30px;
+}
+.cologo{
+    color:rgb(235, 235, 49);
+    font-size: 26px;
+}
+.support{
+    color: rgb(213, 57, 83);
+    font-size: 26px;
+}
+.tools{
+    color: #6ad8d8;
+    font-size: 26px;
+}
+.cologo-para{
+    color:rgb(158, 157, 157);
+    font-size: 16px;
+}
+.box2{
+    background-color: rgb(213, 57, 83);
+}
+
+.box3{
+    background-color: #6ad8d8;
+    margin-right:30px;
+  
+}
+.box4{
+    background-color: rgb(79, 132, 173);
+}
+.anchor-ele{
+    display: inline-block;
+}
+.anchor-ele a{
+line-height:16px;
+color:orange;
+font-weight: bold;
+}
+.tos-and-pp{
+    color:rgb(158, 157, 157);
+    font-weight: bold;
+    font-size: 20px;
+}
+.infi{
+    height:15px;
+    background-color: orange;
+    opacity:0.5;
+}
+@media (min-width:550px){
+
+    .footer-container{
+        padding: 10%;
+    }
+
+}
+@media (min-width:768px){
+    .footer-container{
+        padding: 50px 17%;
+    }
+    .box{
+        width:100px;
+        height:100px;
+    }
+    .box1{
+        margin-left: 100px;
+    }
+
+    .box3{
+        margin-right:100px;
+      
+    }
+    .box-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .boxes2{
+        margin-top:100px;
+    }
+}
+

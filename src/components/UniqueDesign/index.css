@@ -1,0 +1,22 @@
+.createlogo-section {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .createlogo-section h1 {
+    font-size: 42px;
+  }
+  .createlogo-section p {
+    margin-top: 15px;
+  }
+  .button {
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 70px;
+    color: #ffffff;
+    background-color: #5885af;
+    font-weight: bold;
+    cursor: pointer;
+  }

@@ -1,0 +1,81 @@
+.bicoinstack {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    color: white;
+    padding: 10px;
+  }
+  .bicoinstack-container {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-details {
+    width: 450px;
+  }
+  
+  .benefit-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .benefit-item-container:nth-child(2n + 1) {
+    flex-direction: row;
+  }
+  
+  .benefit-item-container:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+  
+  @media (max-width: 1400px) {
+    .benefit-item-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+    }
+    .benefit-item-container:nth-child(2n + 1) {
+      flex-direction: row;
+    }
+  
+    .benefit-item-container:nth-child(2n) {
+      flex-direction: row;
+      margin-left: 300px;
+    }
+  }
+  @media (max-width: 990px) {
+    .benefit-item-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+    }
+    .benefit-item-container:nth-child(2n + 1) {
+      flex-direction: row;
+    }
+  
+    .benefit-item-container:nth-child(2n) {
+      flex-direction: row;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .benefit-item-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+      margin-top: 50px;
+      flex-wrap: wrap;
+    }
+    .custom-details {
+      width: 100%;
+    }
+  }
+  

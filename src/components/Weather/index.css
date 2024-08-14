@@ -1,0 +1,29 @@
+.weather-container {
+    text-align: center;
+    color: black; 
+    margin: 20px;
+    
+}
+
+.weather-container input {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.weather-container button {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.temperature {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}

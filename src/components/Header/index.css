@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .logo h3{
+    margin: 0;
+    font-size: 10px;
+  }
+  
+  .logo .brand {
+    color: black;
+  }
+  
+  .logo .mark {
+    color: white;
+    padding: 0 5px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color:  rgb(201, 153, 153);
+    
+  }
+  
+  .nav-links .login {
+    background-color: rgb(201, 153, 153);
+
+  }
